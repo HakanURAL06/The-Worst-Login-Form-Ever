@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRAVEYARD PASS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div id="scare-overlay" class="hidden">
+        <img src="fear.gif" alt="BOO!">
+        <audio id="scare-audio" src="scream.mp3"></audio>
+    </div>
+
+  
+    <img src="zombie.png" id="zombie-chaser" class="hidden" alt="zombie">
+
+  
+    <div id="movable-container" class="main-container">
+        <h1 id="title">WELCOME TO GRAVEYARD</h1>
+        <div id="math-container">
+            <p>SOLVE THIS:</p>
+            <canvas id="math-canvas" width="450" height="80"></canvas>
+        </div>
+        
+        <div class="input-area">
+            <p id="status-text">LOADING...</p>
+            <input type="text" id="mega-input" autocomplete="off" placeholder="Buraya yazın...">
+            <button id="submit-btn">SAVE AND CONTINUE</button>
+        </div>
+    </div>
+
+   
+   <div id="success-screen" class="hidden">
+    <h1>YOU ARE ALIVE!</h1>
+    <div class="result-box">
+        <p><strong>USERNAME:</strong> <span id="final-user"></span></p>
+        <p><strong>PASSWORD:</strong> <span id="final-pass"></span></p>
+    </div>
+   
+    <button id="reset-btn" onclick="localStorage.clear(); location.reload();">RESET SYSTEM</button>
+</div>
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
