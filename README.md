@@ -310,7 +310,7 @@ Projeye yeni bir kötülük, akıl almaz bir UX anti-pattern'i veya optimizasyon
 * **Geliştirici**: Hakan URAL
 * **Danışman**: Doç. Dr. Elif KARTAL
 * **Ders**: YBSB2008 Web Tasarımı
-* **E-Posta**: [urallhakan06@gmail.com](mailto:urallhakan06@gmail.com)
+* **E-Posta**: [hakanu0615@gmail.com](mailto:hakanu0615@gmail.com)
 * **GitHub**: [@HakanURAL06](https://github.com/HakanURAL06)
 * **Proje Deposu**: [https://github.com/HakanURAL06/The-Worst-Login-Form-Ever](https://github.com/HakanURAL06/The-Worst-Login-Form-Ever)
 
